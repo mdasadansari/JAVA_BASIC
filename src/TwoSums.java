@@ -8,7 +8,8 @@ public class TwoSums {
         int target = 99;
         Solution solution = new Solution();
         int[] twoSum = solution.twoSum(nums, target);
-        if (Arrays.equals(twoSum, new int[]{0, 0})) {
+//        if (Arrays.equals(twoSum, new int[]{0, 0})) {
+        if (Arrays.equals(twoSum, new int[]{})) {
             System.out.println("no match");
         } else {
             System.out.println(Arrays.toString(twoSum));
