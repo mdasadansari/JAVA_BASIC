@@ -5,7 +5,7 @@ import java.util.Map;
 public class TwoSums {
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
-        int target = 99;
+        int target = 18;
         Solution solution = new Solution();
         int[] twoSum = solution.twoSum(nums, target);
 //        if (Arrays.equals(twoSum, new int[]{0, 0})) {
